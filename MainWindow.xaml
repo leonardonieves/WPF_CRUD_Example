@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CrudExample"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Students" Height="400" Width="400">
     <Grid>
         <Frame x:Name="MainFrame" Source="MenuList.xaml"></Frame>
     </Grid>

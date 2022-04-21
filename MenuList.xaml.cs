@@ -27,7 +27,7 @@ namespace CrudExample
             Refresh();
         }
 
-        private void Refresh() 
+        private void Refresh()
         {
             List<StudentViewModel> list = new List<StudentViewModel>();
             using (Model.testEntities db = new Model.testEntities())
@@ -44,7 +44,7 @@ namespace CrudExample
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Add(object sender, RoutedEventArgs e)
         {
             MainWindow.StaticMainFrame.Content = new StudentForm();
         }
